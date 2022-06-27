@@ -1,0 +1,61 @@
+* {
+      overflow-x: hidden;
+}
+
+
+body{
+    overflow-y: hidden;
+}
+
+.col-md-2 h2{
+    overflow-y: hidden;
+}
+
+.col-md-6 h2{
+    overflow-y: hidden;
+}
+
+.col-6 h2{
+    overflow-y: hidden;
+}
+
+.mb-3 h5{
+    overflow-y: hidden;
+}
+
+.banner{
+
+    background-image: var(--bs-gradient);
+}
+
+.banner h1{
+    color: white;
+    font-size: 3rem;
+    font-family: sans-serif;
+    
+}
+
+div.slide-left {
+    width:100%;
+    overflow:hidden;
+  }
+  div.slide-left p {
+    animation: slide-left 10s;
+  }
+  
+  div.slide-left h6 {
+    animation: slide-left 5s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+  
