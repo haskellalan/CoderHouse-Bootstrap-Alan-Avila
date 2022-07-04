@@ -2,9 +2,12 @@
       overflow-x: hidden;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
 
 body{
     overflow-y: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .col-md-2 h2{
