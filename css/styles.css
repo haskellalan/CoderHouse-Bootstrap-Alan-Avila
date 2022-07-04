@@ -38,6 +38,20 @@ body{
     
 }
 
+.iconos {
+  margin: 10px;
+  
+}
+.imgiconos {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  transition-duration: 500ms;
+}
+.imgiconos:hover {
+  transform: scale(1.3)
+}
+
 div.slide-left {
     width:100%;
     overflow:hidden;
