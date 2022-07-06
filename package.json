@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "coderhouse proyect",
+  "main": "index.js",
+  "scripts": {
+		"compile:sass": "sass --watch scss/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haskellalan/CoderHouse-Bootstrap-Alan-Avila.git"
+  },
+  "author": "Alan Avila",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/haskellalan/CoderHouse-Bootstrap-Alan-Avila/issues"
+  },
+  "homepage": "https://github.com/haskellalan/CoderHouse-Bootstrap-Alan-Avila#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}

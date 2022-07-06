@@ -1,0 +1,26 @@
+/* Colores */
+.galeria {
+  padding-inline: 2rem;
+}
+@media screen and (min-width: 550px) {
+  .galeria {
+    width: 80%;
+  }
+}
+.galeria .grid-items {
+  border: 2px solid #4682db;
+  border-radius: 0.25rem;
+}
+.galeria .grid-items img {
+  width: 100%;
+}
+@media screen and (min-width: 550px) {
+  .galeria .grid-items img {
+    width: 100%;
+  }
+}
+.galeria .grid-items img:hover {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=style.css.map */
