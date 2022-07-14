@@ -1,4 +1,59 @@
 /* Colores */
+.texto {
+  color: #ffffff;
+}
+
+.texto2 {
+  color: #2a4dea;
+}
+
+.texto3 {
+  color: #764ba2;
+}
+
+.MapcolorButton {
+  background-image: linear-gradient(90deg, #000000 0%, #261f86 0%, #3593aa 100%);
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+.background--footer, .background--footer_compra {
+  background-color: #000000;
+  padding: 50px;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.background--footer_compra {
+  padding: 65px;
+}
+
+.background, .background--footer, .background--footer_compra {
+  background-image: linear-gradient(90deg, #000000 0%, #261f86 0%, #3593aa 100%);
+}
+
 .galeria {
   padding-inline: 2rem;
 }

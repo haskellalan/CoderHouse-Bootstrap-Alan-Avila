@@ -1,0 +1,9 @@
+$colorsMap: (
+  BackgroundGradient: linear-gradient(90deg, #000000 0%, #261f86 0%, #3593aa 100%),
+  textoColor: #ffffff,
+ 
+);
+
+.MapcolorButton{
+    background-image: map-get($colorsMap, BackgroundGradient);
+}
