@@ -4,7 +4,7 @@
   "description": "coderhouse proyect",
   "main": "index.js",
   "scripts": {
-		"compile:sass": "sass --watch scss/style.scss css/style.css"
+    "compile:sass": "sass --watch ./src/sass/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/haskellalan/CoderHouse-Bootstrap-Alan-Avila#readme",
   "dependencies": {
     "node-sass": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
   }
 }
